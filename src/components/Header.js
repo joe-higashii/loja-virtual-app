@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import SearchIcon from '@mui/icons-material/Search';
-import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 export default function Header() {
     return (
@@ -37,7 +37,7 @@ export default function Header() {
                     </span>
                 </div>
                 <div className="header_optionBasket">
-                    <ShoppingBasketIcon />
+                    <ShoppingCartIcon />
                     <span className="header_optionLineTwo header_basketCount">
                         0
                     </span>
