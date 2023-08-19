@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import SearchIcon from '@mui/icons-material/Search';
 
 export default function Header() {
     return (
@@ -7,7 +8,7 @@ export default function Header() {
             <img className='header_logo' src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="" />
             <div className="header_search">
                 <input className='header_searchInput' type="text" name="" id="" />
-                
+                <SearchIcon className="header_searchIcon" />
             </div>
             <div className="header_nav">
                 <div className="header_option">
